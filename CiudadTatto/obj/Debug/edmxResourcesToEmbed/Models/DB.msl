@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CalificacionesModelStoreContainer" CdmEntityContainer="CalificacionesEntities">
+    <EntitySetMapping Name="Calificaciones">
+      <EntityTypeMapping TypeName="CalificacionesModel.Calificaciones">
+        <MappingFragment StoreEntitySet="Calificaciones">
+          <ScalarProperty Name="Tatuador" ColumnName="Tatuador" />
+          <ScalarProperty Name="Opinion" ColumnName="Opinion" />
+          <ScalarProperty Name="Estrellas" ColumnName="Estrellas" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

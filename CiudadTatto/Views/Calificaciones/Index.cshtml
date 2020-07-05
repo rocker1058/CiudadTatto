@@ -1,0 +1,39 @@
+﻿@model IEnumerable<CiudadTatto.Models.Calificaciones>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Opinion)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Estrellas)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Opinion)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Estrellas)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Tatuador }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Tatuador }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Tatuador })
+        </td>
+    </tr>
+}
+
+</table>

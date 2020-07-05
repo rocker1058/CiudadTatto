@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="CalificacionesModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Calificaciones">
+    <Key>
+      <PropertyRef Name="Tatuador" />
+    </Key>
+    <Property Name="Tatuador" Type="String" MaxLength="40" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Opinion" Type="String" MaxLength="100" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="Estrellas" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="CalificacionesEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Calificaciones" EntityType="Self.Calificaciones" />
+  </EntityContainer>
+</Schema>
