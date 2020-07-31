@@ -211,6 +211,7 @@
     <Content Include="Views\Calificaciones\Details.cshtml" />
     <Content Include="Views\Calificaciones\Edit.cshtml" />
     <Content Include="Views\Calificaciones\Index.cshtml" />
+    <Content Include="Views\View.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

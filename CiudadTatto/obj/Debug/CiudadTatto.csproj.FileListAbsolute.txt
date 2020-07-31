@@ -87,3 +87,4 @@ C:\Users\Leo\source\repos\CiudadTatto\CiudadTatto\obj\Debug\CiudadTatto.csproj.C
 C:\Users\Leo\source\repos\CiudadTatto\CiudadTatto\obj\Debug\CiudadTatto.csproj.CopyComplete
 C:\Users\Leo\source\repos\CiudadTatto\CiudadTatto\obj\Debug\CiudadTatto.dll
 C:\Users\Leo\source\repos\CiudadTatto\CiudadTatto\obj\Debug\CiudadTatto.pdb
+C:\Users\Leo\source\repos\CiudadTatto\CiudadTatto\obj\Debug\CiudadTatto.csprojAssemblyReference.cache
